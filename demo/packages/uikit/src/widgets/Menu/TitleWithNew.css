@@ -1,0 +1,24 @@
+/* src/TitleWithNew.css */
+.title-with-new {
+    position: relative;
+    display: inline-block;
+    padding-right: 30px; /* Make space for NEW badge */
+  }
+  
+  .title {
+    font-size: 16px; /* Adjust as needed */
+    font-weight: bold;
+  }
+  
+  .new-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
